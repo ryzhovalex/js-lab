@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.bundle.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="general container">
+        <form class="guess" disabled>
+            <label for="guess-input">Guess the number (1-100)</label>
+            <input type="number" name="guess-input" min="1" max="100" required>
+            <input type="submit" class="guess__submit">
+        </form>
+        <div class="flash"></div>
+        <ul class="guess-list">
+            <p class="guess-list__title">Previous guesses:</p>
+        </ul>
+    </div>
+    <div class="gameover container">
+        <div class="gameover__title row">
+            <p class="gameover-title__text col">You win!</p>
+        </div>
+        <div class="gameover__restart row">
+            <div class="col-3"></div>
+            <button class="gameover-restart__btn col">Restart</button>
+            <div class="col-3"></div>
+        </div>
+    </div>
+</body>
+</html>

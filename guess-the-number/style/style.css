@@ -1,0 +1,37 @@
+.general {
+  font-size: 30px;
+}
+
+.guess {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.flash {
+  margin-bottom: 25px;
+}
+
+.guess-list {
+  display: none;
+  padding-left: 0;
+}
+
+.guess-list li {
+  margin-left: 40px;
+}
+
+.gameover {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  font-size: 30px;
+}
+
+.gameover__title {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
